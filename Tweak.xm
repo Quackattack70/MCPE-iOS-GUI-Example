@@ -86,7 +86,7 @@ UIView* popview2 = [[UIView alloc] initWithFrame:
    if(IS_IPAD){
       %init(I_PAD);
    }
-   if(IS_IPHONE5 || IS_IPHONE4){
+   if(IS_IPHONE5 || IS_IPHONE4 || IS_IPHONE6){
       %init(I_PHONE);
    }
    
